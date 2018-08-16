@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @create: 2018-08-13 21:56
  **/
 public class Logarithm {
-    public static void insertionSort(int[] arr) {
+    public static void insertionSort(int[] arr) { //插入排序
         if (arr == null || arr.length < 2) {
             return;
         }
@@ -98,7 +98,7 @@ public class Logarithm {
             comparator(arr2);
             if (!isEqual(arr1, arr2)) {
                 succeed = false;
-               printArray(arr3);
+               printArray(arr3);  //打印出来错误的测试用例
                 break;
             }
         }
